@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+.pry-color {
+  color: #ff4240;
+}
+.text-color {
+  color: #424247;
+}
+.p-color {
+  color: rgba(19, 19, 24, 0.6);
+}
+//  main
+.ratting-1 {
+  position: relative;
+  h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.pogras {
+  position: absolute;
+}
+.Program {
+  .Program-img {
+    border-radius: 16px;
+    background: rgba(19, 19, 24, 0.5);
+  }
+}
+.bbb-bbb {
+  padding: 40px;
+  border-top: 1px dashed rgba(128, 128, 128, 0.466);
+  border-bottom: 1px dashed rgba(128, 128, 128, 0.466);
+}
